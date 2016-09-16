@@ -34,6 +34,4 @@ print(sep.join(list))
 #  un total de 80 caracteres
 c = "rellenar"
 
-a=c.rjust(80-len(c),">").ljust(80,"<")
-
-print(a)
+print(c.rjust(80-len(c),">").ljust(80,"<"))
